@@ -25,7 +25,6 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
  
  Historia de usuario 1: Como cliente, quiero registrarme para crear una cuenta en el sitio.
  Historia de usuario 2: Como cliente, quiero iniciar sesión para acceder a mis funciones privadas.
- Historia de usuario 3: Como cliente, quiero consultar y actualizar mis datos personales.
  Historia de usuario 4: Como administrador, quiero gestionar la información de los usuarios registrados.
 
 - Épica 2 — Consulta de servicios
@@ -36,7 +35,7 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
 - Épica 3 — Solicitud de servicios
  
  Historia de usuario 7: Como cliente, quiero solicitar un servicio para recibir atención profesional.
- HIstoria de usuaRIO 8: Como cliente, quiero consultar mis solicitudes para conocer su estado.
+ HIstoria de usuario 8: Como cliente, quiero consultar mis solicitudes para conocer su estado.
  Historia de usuario 9: Como administrador, quiero consultar las solicitudes recibidas.
  Historia de usuario 10: Como administrador, quiero actualizar el estado de una solicitud.
 
@@ -60,3 +59,15 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
  ![2](img/screen2.jpg "2")
 
 ### MODELO ENTIDAD-RELACION
+ ![3](img/screen3.jpg "3")
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Diseño del frontend del sitio usando html y css: Primer version
+-En esta version no tienen contenido las páginas adicionales, únicamente lo que se puede ver del index y no cuenta aun con la funcionalidad de iniciar sesion, en una proxima version se usara una hoja de estilo de css y se dara contenido a las siguientes páginas.
+
+ ![4](img/screen4.jpg "4")
+
+
+
+

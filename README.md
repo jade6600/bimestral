@@ -21,34 +21,38 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Épicas e historias de usuarios:
-- Épica 1 — Gestión de usuarios
- 
- Historia de usuario 1: Como cliente, quiero registrarme para crear una cuenta en el sitio.
- Historia de usuario 2: Como cliente, quiero iniciar sesión para acceder a mis funciones privadas.
- Historia de usuario 4: Como administrador, quiero gestionar la información de los usuarios registrados.
 
-- Épica 2 — Consulta de servicios
- 
- Historia de usuario 5: Como visitante, quiero consultar los servicios ofrecidos para conocer las opciones disponibles.
- Historia de usuario 6: Como cliente, quiero consultar información detallada de un servicio antes de solicitarlo.
 
-- Épica 3 — Solicitud de servicios
- 
- Historia de usuario 7: Como cliente, quiero solicitar un servicio para recibir atención profesional.
- HIstoria de usuario 8: Como cliente, quiero consultar mis solicitudes para conocer su estado.
- Historia de usuario 9: Como administrador, quiero consultar las solicitudes recibidas.
- Historia de usuario 10: Como administrador, quiero actualizar el estado de una solicitud.
+###  Épica: Gestión de usuarios
 
-- Épica 4 — Comunicación
- 
- Historia de usuario 11: Como cliente, quiero enviar mensajes para realizar consultas sobre los servicios.
- Historia de usuario 12: Como administrador, quiero consultar los mensajes enviados por los clientes.
- HIstoria de usuario 13: Como administrador, quiero responder las consultas de los clientes.
+| Rol | Funcionalidad | Historia de Usuario | Información Adicional |
+| :--- | :--- | :--- | :--- |
+| **Cliente** | Servicio de registro | Yo como cliente quiero registrar mi cuenta en el sitio | Atiende al servicio de recolección correcta de los datos del cliente |
+| **Cliente** | Inicio de sesión | Como cliente quiero iniciar sesión para acceder a mis funciones privadas | Atiende al servicio de inicio de sesión con contraseña y usuario |
+| **Administrador** | Gestionar datos | Como administrador quiero gestionar la información de los usuarios registrados | El administrador gestiona los datos de los usuarios permitiendo un mayor orden |
+###  Épica: Consulta de servicios
 
-- Épica 5 — Calificaciones
+| Rol | Funcionalidad | Historia de Usuario | Información Adicional |
+| :--- | :--- | :--- | :--- |
+| **Cliente** | Consultar servicios | Como cliente quiero consultar información detallada de un servicio antes de solicitarlo | El usuario podrá visualizar todos los servicios y su información antes de decidir solicitarlo previamente |
+###  Épica: Solicitud de servicios
 
- Historia de usuario 14: Como cliente, quiero calificar un servicio recibido.
- HIstoria de usuario 15: Como administrador, quiero consultar las calificaciones realizadas por los clientes.
+| Rol | Funcionalidad | Historia de Usuario | Información Adicional |
+| :--- | :--- | :--- | :--- |
+| **Cliente** | Enviar una solicitud | Como cliente quiero solicitar un servicio para recibir atención profesional | El usuario podrá enviar una solicitud la cual será atendida de forma organizada |
+| **Administrador** | Consultar solicitudes | Como administrador quiero consultar las solicitudes pendientes | El admin podrá visualizar y responder cada solicitud enviada |
+###  Épica: Comunicación
+
+| Rol | Funcionalidad | Historia de Usuario | Información Adicional |
+| :--- | :--- | :--- | :--- |
+| **Cliente** | Enviar mensajes o consultas | Como cliente quiero enviar mensajes para realizar consultas sobre los resultados | El cliente podrá preguntar directamente al admin sobre algún servicio |
+| **Administrador** | Enviar y recibir mensajes | Como administrador quiero responder las consultas de los clientes | El administrador podrá responder al usuario manteniendo la comunicación |
+###  Épica: Calificaciones
+
+| Rol | Funcionalidad | Historia de Usuario | Información Adicional |
+| :--- | :--- | :--- | :--- |
+| **Cliente** | Calificar los servicios | Como cliente quiero calificar un servicio recibido | El cliente puede calificar los servicios |
+| **Administrador** | Consultar las calificaciones | Como administrador quiero consultar las calificaciones realizadas por los clientes | El administrador puede visualizar las calificaciones para tenerlas en cuenta |
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -67,6 +71,7 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
 -En esta version no tienen contenido las páginas adicionales, únicamente lo que se puede ver del index y no cuenta aun con la funcionalidad de iniciar sesion, en una proxima version se usara una hoja de estilo de css y se dara contenido a las siguientes páginas.
 
  ![4](img/screen4.jpg "4")
+
 
 
 

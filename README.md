@@ -50,3 +50,13 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
 
  Historia de usuario 14: Como cliente, quiero calificar un servicio recibido.
  HIstoria de usuario 15: Como administrador, quiero consultar las calificaciones realizadas por los clientes.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### MODELO ENTIDAD-RELACION
+ ![1](img/screen.jpg "1")
+
+### MODELO FISICO
+ ![2](img/screen2.jpg "2")
+
+### MODELO ENTIDAD-RELACION

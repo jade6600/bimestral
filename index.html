@@ -1,155 +1,259 @@
 <!DOCTYPE html>
+<html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Personajes - Tailwind CSS</title>
-    <!-- Importación del CDN de Tailwind CSS -->
+    <title>Sobre mí / Ingeniería Química</title>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
-<body class="bg-slate-950 flex items-center justify-center min-h-screen p-6">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full my-8">
-        <div class="bg-slate-900 rounded-2xl shadow-xl p-6 border border-slate-800 text-center hover:shadow-emerald-500/10 hover:shadow-2xl transition duration-300">
-            
-            <!-- Foto de Perfil con Anillo de Estado -->
-            <div class="relative w-24 h-24 mx-auto mb-4">
-                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150" 
-                     alt="Avatar" 
-                     class="rounded-full object-cover w-full h-full border-4 border-emerald-500 shadow-md">
-                <span class="absolute bottom-1 right-1 w-4 h-4 bg-emerald-500 border-2 border-slate-900 rounded-full"></span>
+
+
+<body class="bg-white text-gray-800">
+     <header class="border-b bg-white">
+
+        <nav class="max-w-7xl mx-auto px-6 py-5
+                    flex flex-col md:flex-row
+                    items-center justify-between gap-4">
+
+            <a href="index.html"
+               class="text-xl font-bold tracking-wide">
+
+                Soreth Flórez
+
+            </a>
+            <!-- Menú -->
+            <div class="flex flex-wrap justify-center gap-5 text-sm">
+
+                <a href="index.html"
+                   class="nav-link">
+
+                    INICIO
+                </a>
+
+                <a href="sobre-mi.html"
+                   class="nav-link font-semibold">
+
+                    SOBRE MÍ
+                </a>
+
+                <a href="servicios.html"
+                   class="nav-link">
+
+                    SERVICIOS
+                </a>
+
+                <a href="proceso.html"
+                   class="nav-link">
+
+                    PROCESO
+                </a>
+
+                <a href="contacto.html"
+                   class="nav-link">
+
+                    CONTACTO
+                </a>
+
+                <a href="acceso.html"
+                   class="px-4 py-2
+                          bg-gray-900 text-white
+                          rounded-lg
+                          hover:bg-gray-700
+                          transition">
+
+                    ACCESO
+                </a>
+
             </div>
-                <!-- Nombre y Rol-->
-            <h2 class="text-xl font-bold text-white">Mateo Morales</h2>
-            <p class="text-sm font-medium text-emerald-400 mb-3">Junior Web Developer & Gamer 🎮</p>
-            <p class="text-slate-400 text-xs mb-4 leading-relaxed">
-                Apasionado por la tecnología, construyendo aplicaciones web interactivas y aprendiendo Tailwind CSS.
+
+        </nav>
+
+    </header>
+
+    <main>
+
+         <section class="max-w-7xl mx-auto px-6 py-20">
+
+            <div class="max-w-4xl">
+
+                <p class="text-sm uppercase
+                          tracking-widest
+                          font-semibold
+                          text-gray-500 mb-4">
+
+                    Perfil profesional
+
+                </p>
+
+
+                <h1 class="text-4xl md:text-5xl
+                           font-bold
+                           leading-tight mb-6">
+
+                    Ingeniería química aplicada
+                    a la industria cosmética
+
+                </h1>
+
+
+                <p class="text-lg text-gray-600
+                          leading-relaxed">
+
+                    Profesional de ingeniera química especializada
+                    en el desarrollo, formulación y evaluación técnica
+                    de productos pertenecientes a la industria cosmética.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="bg-gray-50 py-20">
+
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="grid md:grid-cols-2 gap-12">
+
+
+                    <div>
+
+                        <p class="text-sm uppercase
+                                  tracking-widest
+                                  font-semibold
+                                  text-gray-500 mb-3">
+
+                            Formación
+
+                        </p>
+
+                        <h2 class="text-3xl font-bold mb-5">
+
+                            Conocimiento científico
+                            aplicado al desarrollo cosmético
+
+                        </h2>
+
+                        <p class="text-gray-600 leading-relaxed">
+
+                            La formación en ingeniería química proporciona
+                            conocimientos relacionados con química,
+                            procesos industriales, materiales y control
+                            de variables, aplicados en este caso al
+                            desarrollo de soluciones para la industria
+                            cosmética.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-white p-8 rounded-xl
+                                border border-gray-200">
+
+                        <h3 class="font-semibold text-xl mb-5">
+
+                            Áreas de especialización
+
+                        </h3>
+
+                        <ul class="space-y-4 text-gray-600">
+
+                            <li>
+                                Formulación y desarrollo cosmético
+                            </li>
+
+                            <li>
+                                Evaluación de materias primas
+                            </li>
+
+                            <li>
+                                Optimización de formulaciones
+                            </li>
+
+                            <li>
+                                Procesos de producción
+                            </li>
+
+                            <li>
+                                Evaluación técnica de productos
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="max-w-7xl mx-auto px-6 py-20">
+
+            <div class="max-w-3xl">
+
+                <p class="text-sm uppercase
+                          tracking-widest
+                          font-semibold
+                          text-gray-500 mb-3">
+
+                    Enfoque profesional
+
+                </p>
+
+                <h2 class="text-3xl font-bold mb-5">
+
+                    Ciencia, formulación y desarrollo
+
+                </h2>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    El objetivo es proporcionar acompañamiento técnico
+                    a comercios y empresas que desarrollen o trabajen
+                    con productos cosméticos, para abordar las necesidades
+                    específicas de cada proyecto.
+
+                </p>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="border-t">
+
+        <div class="max-w-7xl mx-auto px-6 py-8">
+
+            <p class="font-semibold">
+
+                Ingeniería Química
+
             </p>
 
-            <!-- Etiquetas / Badges de Habilidades -->
-            <div class="flex justify-center gap-2 mb-4">
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">HTML</span>
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">Tailwind</span>
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">JS</span>
-            </div>
+            <p class="text-sm text-gray-500 mt-2">
 
-            <!-- Reto 2: Barra de Estadísticas (Fondo bg-slate-800 para contrastar con el modo oscuro de la tarjeta) -->
-            <div class="flex justify-around bg-slate-800 rounded-xl p-3 mb-4">
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">14</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Proyectos</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">1.2k</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Seguidores</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">85</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Nivel</span>
-                </div>
-            </div>
+                Servicios profesionales aplicados a la industria cosmética.
 
-            <!--Botón de contacto efecto hover-->
-            <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold py-2.5 px-4 rounded-xl transition duration-300 transform hover:-translate-y-0.5">
-                Seguir Perfil
-            </button>
-            </div>
-
-        <!--Tarjeta Nestor paez-->
-        <div class="bg-slate-900 rounded-2xl shadow-xl p-6 border border-slate-800 text-center hover:shadow-emerald-500/10 hover:shadow-2xl transition duration-300">
-            
-              <!-- Foto de Perfil con Anillo de Estado -->
-            <div class="relative w-24 h-24 mx-auto mb-4">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150" 
-                     alt="Avatar" 
-                     class="rounded-full object-cover w-full h-full border-4 border-emerald-500 shadow-md">
-                <span class="absolute bottom-1 right-1 w-4 h-4 bg-emerald-500 border-2 border-slate-900 rounded-full"></span>
-            </div>
-
-            <!-- Nombre y Rol -->
-            <h2 class="text-xl font-bold text-white">Nestor Paez</h2>
-            <p class="text-sm font-medium text-emerald-400 mb-3">Ingeniero en Sistemas</p>
-            <p class="text-slate-400 text-xs mb-4 leading-relaxed">
-                Ingeniero en Sistemas y profesor de esta especialidad
             </p>
 
-            <!-- Etiquetas / Badges de Habilidades -->
-            <div class="flex justify-center gap-2 mb-4">
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">Figma</span>
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">Tailwind</span>
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">CSS</span>
-            </div>
+            <p class="text-sm text-gray-400 mt-5">
 
-            <!--Barra de Estadísticas-->
-            <div class="flex justify-around bg-slate-800 rounded-xl p-3 mb-4">
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">28</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Proyectos</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">3.5k</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Seguidores</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">92</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Nivel</span>
-                </div>
-            </div>
+                 2032
 
-            <!--Botón color Esmeralda-->
-            <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold py-2.5 px-4 rounded-xl transition duration-300 transform hover:-translate-y-0.5">
-                Seguir Perfil
-            </button>
-            
+            </p>
+
         </div>
 
-        <!-- Tarjeta 3: Carlos Ruiz (Duplicado para Reto 3 con datos personalizados) -->
-        <div class="bg-slate-900 rounded-2xl shadow-xl p-6 border border-slate-800 text-center hover:shadow-emerald-500/10 hover:shadow-2xl transition duration-300">
-            
-            <!-- Foto de Perfil -->
-            <div class="relative w-24 h-24 mx-auto mb-4">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150" 
-                     alt="Sofía Alarcón" 
-                     class="rounded-full object-cover w-full h-full border-4 border-emerald-500 shadow-md">
-                <span class="absolute bottom-1 right-1 w-4 h-4 bg-emerald-500 border-2 border-slate-900 rounded-full"></span>
-            </div>
-
-            <!-- Nombre y Rol -->
-            <h2 class="text-xl font-bold text-white">Saray Vera</h2>
-            <p class="text-sm font-medium text-emerald-400 mb-3">Fullstack Dev & Speedrunner</p>
-            <p class="text-slate-400 text-xs mb-4 leading-relaxed">
-                Especialista en bases de datos y APIs optimizadas. En mis tiempos libres rompo récords en speedruns de juegos retro.
-            </p>
-
-            <!-- Etiquetas / Badges de Habilidades -->
-            <div class="flex justify-center gap-2 mb-4">
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">NodeJS</span>
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">SQL</span>
-                <span class="bg-slate-800 text-slate-200 text-xs px-3 py-1 rounded-full font-semibold">Tailwind</span>
-            </div>
-
-            <!--Barra de Estadísticas -->
-            <div class="flex justify-around bg-slate-800 rounded-xl p-3 mb-4">
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">42</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Proyectos</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">890</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Seguidores</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-base font-bold text-white">78</span>
-                    <span class="block text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Nivel</span>
-                </div>
-            </div>
-
-            <!--Botón color Esmeralda -->
-            <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold py-2.5 px-4 rounded-xl transition duration-300 transform hover:-translate-y-0.5">
-                Seguir Perfil
-            </button>
-            
-        </div>
-
-    </div>
+    </footer>
 
 </body>
 </html>

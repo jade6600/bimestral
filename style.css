@@ -1,0 +1,183 @@
+/* ========================================
+   ESTILOS GENERALES
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #263238;
+    background-color: #f8faf9;
+}
+
+
+/* ========================================
+   IDENTIDAD VISUAL
+   ======================================== */
+
+:root {
+    --verde-principal: #315c4b;
+    --verde-oscuro: #234337;
+    --verde-claro: #dfece6;
+    --fondo: #f8faf9;
+    --blanco: #ffffff;
+    --gris: #64748b;
+    --borde: #d8e1dd;
+}
+
+
+/* ========================================
+   ENLACES
+   ======================================== */
+
+a {
+    text-decoration: none;
+}
+
+
+/* ========================================
+   BOTONES PERSONALIZADOS
+   ======================================== */
+
+.boton-principal {
+    display: inline-block;
+    background-color: var(--verde-principal);
+    color: var(--blanco);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.boton-principal:hover {
+    background-color: var(--verde-oscuro);
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   TARJETAS
+   ======================================== */
+
+.tarjeta {
+    background-color: var(--blanco);
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    padding: 24px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ========================================
+   TÍTULOS
+   ======================================== */
+
+.titulo-seccion {
+    color: var(--verde-oscuro);
+    font-weight: bold;
+}
+
+.subtitulo {
+    color: var(--gris);
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   FORMULARIOS
+   ======================================== */
+
+.campo-formulario {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    background-color: var(--blanco);
+    font-size: 16px;
+}
+
+.campo-formulario:focus {
+    outline: none;
+    border-color: var(--verde-principal);
+    box-shadow: 0 0 0 3px rgba(49, 92, 75, 0.15);
+}
+
+
+/* ========================================
+   ENCABEZADO
+   ======================================== */
+
+.encabezado-personalizado {
+    background-color: var(--blanco);
+    border-bottom: 1px solid var(--borde);
+}
+
+
+/* ========================================
+   PIE DE PÁGINA
+   ======================================== */
+
+.pie-personalizado {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+}
+
+
+/* ========================================
+   ELEMENTOS DESTACADOS
+   ======================================== */
+
+.destacado {
+    background-color: var(--verde-claro);
+    border-radius: 14px;
+    padding: 24px;
+}
+
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    .boton-principal {
+        padding: 11px 20px;
+    }
+
+    .tarjeta {
+        padding: 20px;
+    }
+}
+
+
+/* Celulares */
+@media (max-width: 480px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .boton-principal {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tarjeta {
+        padding: 18px;
+    }
+}

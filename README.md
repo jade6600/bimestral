@@ -72,6 +72,8 @@ Mi sitio web buscará solucionar esto medianteUna plataforma web profesional que
 
  ![4](img/screen4.jpg "4")
 
+### BASE DE DATOS: 
+
 
 
 
